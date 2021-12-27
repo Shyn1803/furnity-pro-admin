@@ -1,0 +1,23 @@
+@import '../variables.less';
+@import '../antdPrefix.less';
+
+.@{ant-select-prefix-cls}:not(.@{ant-select-prefix-cls}-customize-input),
+.@{ant-select-prefix-cls}-focused:not(.@{ant-select-prefix-cls}-disabled).@{ant-select-prefix-cls}:not(.@{ant-select-prefix-cls}-customize-input) {
+  .@{ant-select-prefix-cls} {
+    &-selector {
+      border: none;
+      border-radius: 16px;
+      box-shadow: @box-shadow;
+      transition: box-shadow @linear-025;
+
+      &:hover {
+        box-shadow: @box-shadow-hover;
+      }
+    }
+
+    &-selection-item {
+      color: @black-color;
+    }
+  }
+}
+

@@ -1,0 +1,27 @@
+@import '../variables.less';
+@import '../antdPrefix.less';
+
+.@{ant-checkbox-prefix-cls}-wrapper {
+  .@{ant-checkbox-prefix-cls} {
+    .@{ant-checkbox-prefix-cls}-inner {
+      width: 16px;
+      height: 16px;
+      border: solid 1px @black;
+      border-radius: 5px;
+    }
+
+    &.@{ant-checkbox-prefix-cls}-checked {
+      .@{ant-checkbox-prefix-cls}-inner {
+        border: solid 1px @blue-6;
+      }
+    }
+
+    &:hover::after {
+      border-radius: 5px;
+    }
+  }
+
+  .ant-checkbox::after {
+    border-radius: 5px;
+  }
+}

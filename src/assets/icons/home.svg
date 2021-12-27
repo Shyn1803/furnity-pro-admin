@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="17px" height="17px" viewBox="0 0 17 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>home-icon</title>
+    <desc>Created with Sketch.</desc>
+    <g id="02-All-Values" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="square">
+        <g id="100_Values-Collection" transform="translate(-20.000000, -170.000000)" stroke="#FFFFFF">
+            <g id="Group-41">
+                <g id="Group-40">
+                    <g id="Group-26" transform="translate(21.000000, 168.000000)">
+                        <g id="shop" transform="translate(0.000000, 3.000000)">
+                            <g id="home-icon">
+                                <polyline id="Shape" points="1.66071429 7.5 1.66071429 15 6.08928571 15 6.08928571 11.5 9.41071429 11.5 9.41071429 15 13.8392857 15 13.8392857 7.5"></polyline>
+                                <path d="M15.5,5.5 C15.5,6.85 14.6142857,7.5 13.5625,7.5 C12.5107143,7.5 11.625,6.95 11.625,6 C11.625,6.95 10.6839286,7.5 9.63214286,7.5 C8.58035714,7.5 7.75,6.95 7.75,6 C7.75,6.95 6.91964286,7.5 5.86785714,7.5 C4.81607143,7.5 3.875,6.95 3.875,6 C3.875,6.95 2.98928571,7.5 1.9375,7.5 C0.885714286,7.5 0,6.85 0,5.5 L3.32142857,0 L12.1785714,0 L15.5,5.5 Z" id="Shape"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

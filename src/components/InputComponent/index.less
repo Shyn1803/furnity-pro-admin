@@ -1,0 +1,51 @@
+@import '../../styles/variables.less';
+@import '../../styles/antdPrefix.less';
+
+.container {
+  position: relative;
+
+  .title {
+    position: absolute;
+    left: 0;
+    z-index: 1;
+    top: 4px;
+    font: @font-base;
+    color: @neutral-8;
+    transition: all @linear-025;
+    cursor: text;
+
+    &.active {
+      font: @font-xs;
+      // color: @neutral-8;
+      top: -16px;
+      cursor: default;
+    }
+  }
+
+  .inputClass:focus+.title {
+    font: @font-xs;
+    // color: @neutral-8;
+    top: -16px;
+    cursor: default;
+  }
+
+  :global {
+    .@{ant-input-prefix-cls} {
+      border: none;
+      border-bottom: solid 1px @neutral-4;
+      transition: all @linear-025;
+      border-radius: 0;
+      background-color: transparent;
+      font: @font-base;
+      font-weight: @font-semibold;
+      padding: 3px 0;
+
+      &:focus,
+      &-focused {
+        border: none;
+        border-bottom: solid 1px @saddle-brown-color;
+        box-shadow: none;
+      }
+    }
+  }
+}

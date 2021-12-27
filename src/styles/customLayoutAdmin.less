@@ -1,0 +1,30 @@
+@import './variables.less';
+@import './antdPrefix.less';
+
+.@{layout-design-pro-prefix-cls} {
+  .@{layout-prefix} {
+    min-height: 100vh;
+    height: 100%;
+    background-color: #F0F0F0;
+
+    .@{layout-header-prefix-cls} {
+      height: 0 !important; // to 
+    }
+
+    &-sider {
+      background-color: #F0F0F0;
+
+      &.@{layout-pro-prefix-cls}-sider.@{layout-pro-prefix-cls}-sider-fixed {
+        box-shadow: none;
+      }
+    }
+
+    &-content {
+      margin: 0;
+      background-color: #F9F9F9;
+      border-top-left-radius: 40px;
+      border-bottom-left-radius: 40px;
+      padding: 30px;
+    }
+  }
+}

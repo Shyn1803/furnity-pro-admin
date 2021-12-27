@@ -1,0 +1,18 @@
+@import '../variables.less';
+@import '../antdPrefix.less';
+
+.@{ant-btn-prefix-cls} {
+  border: none;
+  border-radius: 16px;
+  padding: 4px 15px;
+  box-shadow: @box-shadow;
+  transition: box-shadow @linear-025;
+
+  &:hover, &:focus {
+    color: @black-color;
+  }
+
+  &:hover {
+    box-shadow: @box-shadow-hover;
+  }
+}
